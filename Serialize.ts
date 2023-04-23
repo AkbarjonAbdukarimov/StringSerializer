@@ -1,8 +1,8 @@
 class Serialize {
   constructor(public nums: Array<Number>) {}
   public str: String = "";
-  public initialLength: Number = this.nums.join("").length;
-  public finalLength: Number = 0;
+  public initialLength: number = this.nums.join("").length;
+  public finalLength: number = 0;
   serialize(): void {
     for (let i = 0; i < this.nums.length; i++) {
       this.str += String.fromCharCode(this.nums[i] as number);
