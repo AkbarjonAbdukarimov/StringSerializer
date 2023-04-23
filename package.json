@@ -1,0 +1,19 @@
+{
+  "name": "serializer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently  \"tsc -w\" \"nodemon index.js\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^8.0.1",
+    "zlib": "^1.0.5"
+  },
+  "devDependencies": {
+    "@types/node": "^18.16.0"
+  }
+}
