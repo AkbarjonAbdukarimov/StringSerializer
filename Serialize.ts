@@ -11,9 +11,13 @@ class Serialize {
   }
   public logResults(): void {
     this.serialize();
-    console.log("Initial length", this.initialLength);
-    console.log("Final length", this.finalLength);
-    console.log("Serialized string:", this.str);
+    console.log("-------------------");
+    console.log("Test with ", this.initialLength);
+    console.log("Initial length");
+    console.log(this.initialLength);
+    console.log("Final length");
+    console.log(this.finalLength);
+    console.log(this.nums);
   }
 }
 export default Serialize;
